@@ -33,21 +33,27 @@
 	<body id="about-scroll">
 		<!--About Me section-->
 		<section class="about-me-container" id="about-me-container">
-			<h2 id="about">About Me</h2> <!--ID about for smooth-scroll-->
+			<Saos once={true} animation={'fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
+				<h2 id="about">About Me</h2> <!--ID about for smooth-scroll-->
+			</Saos>
 			<div class="about-me wrapper-about-me">
 				<div class="about-me-left">
-					<img src={portrait} alt="Profile of Corey" class="profile-img">
+					<Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
+						<img src={portrait} alt="Profile of Corey" class="profile-img">
+					</Saos>
 				</div>
-				<div class="about-me-right">
-					<p>
-						Hey! My name is Corey Damocles and I am a software engineer based in Phoenix, AZ. I am a tech junkie and have a passion for building out web applications with the latest technologies. I joined the <a href="https://purefunc.io/" target="_blank" rel="noopener">Pure Func</a> web development agency as a developer in April 2022, and joined <a href="https://fastdms.com/" target="_blank" rel="noopener">Fast DMS</a> as a software engineer in December 2022.
-					</p>
-					<p>
-						I am currently developing projects with the cutting edge framework <a href="https://kit.svelte.dev/" target="_blank" rel="noopener">SvelteKit</a>, as well as building applications with MERN (MongoDB/Express/React/Node) and other fun tech stacks. The tools and languages I use include Svelte/SvelteKit, React/Next.js, Node, Express, MongoDB, PostgreSQL, Supabase, Git, HTML, and CSS.
-					<p>
-						Let's build something together!
-					</p>
-				</div>
+				<Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
+					<div class="about-me-right">
+						<p>
+							Hey! My name is Corey Damocles and I am a software engineer based in Phoenix, AZ. I am a tech junkie and have a passion for building out web applications with the latest technologies. I joined the <a href="https://purefunc.io/" target="_blank" rel="noopener">Pure Func</a> web development agency as a developer in April 2022, and joined <a href="https://fastdms.com/" target="_blank" rel="noopener">Fast DMS</a> as a software engineer in December 2022.
+						</p>
+						<p>
+							I am currently developing projects with the cutting edge framework <a href="https://kit.svelte.dev/" target="_blank" rel="noopener">SvelteKit</a>, as well as building applications with MERN (MongoDB/Express/React/Node) and other fun tech stacks. The tools and languages I use include Svelte/SvelteKit, React/Next.js, Node, Express, MongoDB, PostgreSQL, Supabase, Git, HTML, and CSS.
+						<p>
+							Let's build something together!
+						</p>
+					</div>
+				</Saos>
 			</div>
 		</section>
 		<!--Projects section-->
