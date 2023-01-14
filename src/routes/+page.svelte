@@ -191,7 +191,7 @@
 		color: var(--nav-text-color);
 	}
 	
-	.snippet, p {
+	.snippet {
 		font-size: 1.3rem;
 	}
 	
