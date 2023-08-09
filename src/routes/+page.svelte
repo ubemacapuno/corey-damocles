@@ -7,6 +7,7 @@
 	import portrait from '$lib//Images/about/portrait.jpg';
 	import pokedexLite from '$lib/Images/projects/pokedex-lite.jpg';
 	import capaTracker from '$lib/Images/projects/capa-tracker.jpg';
+	import foodieBlog from '$lib/Images/projects/foodie-blog-resize.jpg';
 	import dropzoneAPI from '$lib//Images/projects/dropzone-api.jpg';
 	import dyzeeDiaries from '$lib/Images/projects/dyzee-diaries.jpg';
 	import qcLogger from '$lib/Images/projects/qc-logger.jpg';
@@ -131,7 +132,7 @@
 					</p>
 					<p>
 						SvelteKit, TypeScript, Tailwind CSS + DaisyUI, MongoDB, Auth.js (GitHub OAuth provider),
-						HTML, CSS
+						hosted on Netlify.
 					</p>
 					<a
 						href="https://github.com/ubemacapuno/ts-capa-tracker-refactor"
@@ -156,6 +157,59 @@
 				</div>
 			</Saos>
 		</div>
+
+		<div class="wrapper-projects">
+			<Saos
+				once={true}
+				animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+				top={250}
+				bottom={250}
+			>
+				<div class="projects-text">
+					<h3>Foodie Blog</h3>
+					<p>
+						Indulge your culinary senses with Foodie Blog! This full-stack application is a haven
+						for food enthusiasts to create, share, and explore delectable recipes. With a virtual
+						assistant powered by <a
+							href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis"
+							>Chat GPT
+						</a>, Foodie Blog provides interactive guidance, recipe suggestions, and culinary
+						support, transforming your cooking experience into an engaging adventure.
+					</p>
+					<p>
+						Whether you're a home cook or a professional chef, Foodie Blog offers a platform to
+						document your favorite dishes and find inspiration for your next meal. Foodie Blog is
+						continually updated, enhancing its features and user interface to provide a
+						comprehensive and enjoyable experience.
+					</p>
+					<p>
+						SvelteKit, TypeScript, Tailwind CSS, MongoDB, Auth.js (GitHub OAuth provider),
+						Superforms, Zod, Chat GPT API, hosted on Vercel.
+					</p>
+					<a
+						href="https://github.com/ubemacapuno/foodie-blog-sveltekit"
+						target="_blank"
+						rel="noopener"><button class="project-link"><span>Repo</span></button></a
+					>
+					<a href="https://foodie-blog-sveltekit.vercel.app/" target="_blank" rel="noopener"
+						><button class="project-link"><span>Demo</span></button></a
+					>
+				</div>
+			</Saos>
+			<Saos
+				once={true}
+				animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'}
+				top={250}
+				bottom={250}
+			>
+				<div class="projects-image">
+					<a href="https://foodie-blog-sveltekit.vercel.app/" target="_blank" rel="noopener"
+						><img class="project-img" src={foodieBlog} alt="Foodie Blog Project" /></a
+					>
+				</div>
+			</Saos>
+		</div>
+
 		<!--QC Logger Project-->
 		<div class="wrapper-projects">
 			<Saos
