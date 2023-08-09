@@ -172,7 +172,7 @@
 						for food enthusiasts to create, share, and explore delectable recipes. With a virtual
 						assistant powered by <a
 							href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis"
-							>Chat GPT
+							>ChatGPT
 						</a>, Foodie Blog provides interactive guidance, recipe suggestions, and culinary
 						support, transforming your cooking experience into an engaging adventure.
 					</p>
@@ -184,7 +184,7 @@
 					</p>
 					<p>
 						SvelteKit, TypeScript, Tailwind CSS, MongoDB, Auth.js (GitHub OAuth provider),
-						Superforms, Zod, Chat GPT API, hosted on Vercel.
+						Superforms, Zod, ChatGPT API, hosted on Vercel.
 					</p>
 					<a
 						href="https://github.com/ubemacapuno/foodie-blog-sveltekit"
