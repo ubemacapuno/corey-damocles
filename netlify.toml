@@ -2,3 +2,9 @@
   command = "npm run build"
   publish = "build/"
   functions = "functions/"
+
+[[redirects]]
+  from = "/"
+  to = "/ https://coreydamocles.vercel.app/  301"
+  status = 301
+  force = true
